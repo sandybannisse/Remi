@@ -1,8 +1,6 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
 
-public class Keypad : Interactable
+public class spin : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,10 +12,5 @@ public class Keypad : Interactable
     void Update()
     {
         
-    }
-
-    protected override void Interact()
-    {
-        Debug.Log("Interacted with" + gameObject.name);
     }
 }
