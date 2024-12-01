@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0C3FA5C5-3D0E-44FF-9279-2FB892A22F70}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{0C3FA5C5-3D0E-44FF-9279-2FB892A22F70}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{33B5DA92-C55E-4B45-9CD8-F9258132CDB1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Combat_Start" ID="{502729DF-D33F-404D-B419-788EB24D39E1}" WorkUnitID="{C5406DFF-9332-478D-9CC4-DDF1A15CF7EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Jump" ID="{89D0667E-1FCA-4096-9636-89A0A45BA11D}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GameOver" ID="{1B82A25E-7356-40F7-A99E-37EC55C3CA44}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Option" ID="{853E6576-8F4C-40FD-B8C7-34C8949AE900}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OpenBox" ID="{0616E3AB-C58A-4401-9262-EC4BDA29029D}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dark_Darker" ID="{410EEEFA-5F8D-442A-967B-EF1E90E2C083}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VeggieAttack" ID="{55C5D9B3-829E-4530-B402-E754ED5D1703}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IcecreamCollect" ID="{C5DACD96-E4EA-4660-96CD-76B140A12CB3}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PotionProx" ID="{AD6949B5-94F0-46CE-B730-C5E00F46C4E3}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Light_Dark" ID="{03FF49E1-30A4-479E-8220-E3D39CDA57C3}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="OpenDoor" ID="{3978CC42-ADC8-4996-BD80-A4EE65696B2A}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PotionCollect" ID="{61E980CA-7D12-49D7-96B9-A02F8D9C347E}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Steps" ID="{808A6C5A-83BE-49FE-860D-E4CDE29C4573}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="VeggieProx" ID="{3536FAC5-81EC-4A3E-8FF4-B5922C0FC8BD}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CloseBox" ID="{2665727B-0054-4DA8-9119-E9CB6DE7AC5A}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Victory" ID="{FF6B68F8-7634-4DD7-93F3-6109E20A9326}" WorkUnitID="{C5406DFF-9332-478D-9CC4-DDF1A15CF7EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CloseDoor" ID="{1100140B-371B-4DE0-AC2E-B1C0A4C7FF3C}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Back" ID="{92CCF4D6-129E-4DFB-B8DE-99E53B099055}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IcecreamProx" ID="{CBA636D0-C979-4E41-9648-532EC6355176}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UnicornAttack" ID="{E02868E6-CB5F-4E92-98AA-7F84045187E4}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{928BD80C-7DCC-4EA4-A3EB-457F55525965}" WorkUnitID="{C5406DFF-9332-478D-9CC4-DDF1A15CF7EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Select" ID="{2E201E6B-ADF9-4EB1-A3FF-6467A3A38669}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dark_Light" ID="{893A3338-53A6-4F28-8E16-05EF8FA692FD}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Liking" ID="{1BD32A04-BF82-4F34-925A-4E8D994CCA36}" WorkUnitID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

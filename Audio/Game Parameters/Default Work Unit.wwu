@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EFA1D68-DE61-4EF6-95CE-E67878AE7423}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{8EFA1D68-DE61-4EF6-95CE-E67878AE7423}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ClockTicking" ID="{DB97F6E4-F7E6-484B-9A78-1F8570EA35C4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

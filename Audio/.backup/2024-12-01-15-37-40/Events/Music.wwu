@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C5406DFF-9332-478D-9CC4-DDF1A15CF7EC}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Music" ID="{C5406DFF-9332-478D-9CC4-DDF1A15CF7EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Music" ID="{928BD80C-7DCC-4EA4-A3EB-457F55525965}">
+					<ChildrenList>
+						<Action Name="" ID="{38DD502F-A13C-4B00-8597-73EC08BA8A0D}" ShortID="903525419">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Remi Music" ID="{219AC007-FAD9-4778-88AC-E5065F617601}" WorkUnitID="{C44E571C-3A77-4627-9395-86EEA7F53053}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{07022DDB-57B6-4CA7-8E0A-53D4E5258B6D}" ShortID="837800595">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gameplay_Light" ID="{EFDC50A4-40C1-43A9-9D57-DC30A14496ED}" WorkUnitID="{BDC901CD-E3E1-4195-9B7B-D7D58B5E73A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AB3866F-0B01-4CE1-8FF4-199B4DDCA846}" ShortID="792060516">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Remi Music" ID="{219AC007-FAD9-4778-88AC-E5065F617601}" WorkUnitID="{C44E571C-3A77-4627-9395-86EEA7F53053}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Combat_Start" ID="{502729DF-D33F-404D-B419-788EB24D39E1}">
+					<ChildrenList>
+						<Action Name="" ID="{03C0A345-A224-439E-A6B6-48AA7DF89DC1}" ShortID="63443784">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Combat_Dark" ID="{28CFA6DB-21A5-4DEF-A4B8-0677D9FCDAD6}" WorkUnitID="{BDC901CD-E3E1-4195-9B7B-D7D58B5E73A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Victory" ID="{FF6B68F8-7634-4DD7-93F3-6109E20A9326}">
+					<ChildrenList>
+						<Action Name="" ID="{D91966A2-33CC-47D3-9C7B-3312D2BA32DC}" ShortID="244747071">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Victory" ID="{ED6C41EA-2F5D-482B-BB7A-1D4DA1770D8F}" WorkUnitID="{BDC901CD-E3E1-4195-9B7B-D7D58B5E73A6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

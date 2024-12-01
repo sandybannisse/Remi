@@ -1,0 +1,2279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Player" ID="{503DE34F-4B09-49F8-AD93-4937069C04D4}" ShortID="578537709">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Play_Steps" ID="{F679FB7A-2616-4CFE-BD8F-2B8FB481B31E}" ShortID="123464144">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{0C2AAAF2-A74A-4429-913A-4DA833970BE1}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TD_Remi_SFX_Step 01" ID="{798E0228-E6A4-4516-996C-35EE139D8130}" ShortID="202971195">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 01" ID="{FB88BD81-EB71-482F-8A75-9A49E9757CC7}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302039624"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 01" ID="{FB88BD81-EB71-482F-8A75-9A49E9757CC7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 02" ID="{E3D53749-7B02-4F6F-9C12-1667DB77F337}" ShortID="481831563">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 02" ID="{0172909B-3A6D-4707-AD40-A0389EC2A74D}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="648668540"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 02" ID="{0172909B-3A6D-4707-AD40-A0389EC2A74D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 03" ID="{6BB27630-FB72-4096-AE2F-C55CE8D6A5A8}" ShortID="580160663">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 03" ID="{CED934F8-6654-4CDF-8A98-B0E7C1125E5A}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="521101577"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 03" ID="{CED934F8-6654-4CDF-8A98-B0E7C1125E5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 04" ID="{215DD35A-35AC-48E5-94A2-49CFF87F1FBB}" ShortID="769268153">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 04" ID="{A37989DE-B060-4CBE-BE9E-162B4FEC6656}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1047769736"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 04" ID="{A37989DE-B060-4CBE-BE9E-162B4FEC6656}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 05" ID="{FAC73150-E4F9-432E-A11D-94CDE5FA3055}" ShortID="508063897">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 05" ID="{ED4E9646-70CF-401D-812A-1B3D06CA13EE}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="349754668"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 05" ID="{ED4E9646-70CF-401D-812A-1B3D06CA13EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 06" ID="{E71F57C2-EFE4-4C2D-875D-EEF055D96A87}" ShortID="912422198">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 06" ID="{8E6F5204-A147-470B-A6C2-DF7FFA469D7A}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="256105854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 06" ID="{8E6F5204-A147-470B-A6C2-DF7FFA469D7A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 07" ID="{17CDC4DD-C14A-4A07-95FB-09F108402DE6}" ShortID="879000024">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 07" ID="{EB2AC1C7-D5E6-424A-A4A5-76A5F56B1815}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="509753540"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 07" ID="{EB2AC1C7-D5E6-424A-A4A5-76A5F56B1815}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 08" ID="{504E70F2-326E-40A3-A9CB-7CDE62E1EBA2}" ShortID="775906914">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 08" ID="{D7906051-EF42-4004-A27B-B020C2638976}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="962251597"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 08" ID="{D7906051-EF42-4004-A27B-B020C2638976}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 09" ID="{9855553B-3539-460B-9E49-61F58219AABE}" ShortID="13293183">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 09" ID="{8000A906-2B39-4A80-B02E-7F96BD0DA8BB}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="146043913"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 09" ID="{8000A906-2B39-4A80-B02E-7F96BD0DA8BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 10" ID="{D403AA97-2660-4B26-A0F3-886DEB4F352D}" ShortID="1021278541">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 10" ID="{3D682490-AFDC-4378-A4F7-9389B5D27D28}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="472443950"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 10" ID="{3D682490-AFDC-4378-A4F7-9389B5D27D28}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Step 11" ID="{3852FB3B-AB8D-4551-883A-45807EFA9652}" ShortID="730369565">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Step 11" ID="{737493AE-BEB3-4ACC-9826-2A67C2748180}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Steps\TD_Remi_SFX_Step 11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278557369"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Step 11" ID="{737493AE-BEB3-4ACC-9826-2A67C2748180}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+										<CustomState Name="" ID="{73C853B9-6197-4C30-A2C1-57D012D20594}" ShortID="404879473">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="47"/>
+												<Property Name="Volume" Type="Real64" Value="3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+										<CustomState Name="" ID="{570C75D7-D702-4FF7-9C52-50E3597D946E}" ShortID="475145826"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Play_Jump" ID="{275E10B3-15FD-43DA-B778-48F771AE020C}" ShortID="230524722">
+							<PropertyList>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Player" ID="{0C2AAAF2-A74A-4429-913A-4DA833970BE1}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TD_Remi_SFX_Jump 01" ID="{A9FBC949-6FEA-49E0-83D6-8F6F59BFBDC9}" ShortID="891914264">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Jump 01" ID="{BDEA901D-57BD-49D6-8879-E9426DF5EF44}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Jump\TD_Remi_SFX_Jump 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816457745"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Jump 01" ID="{BDEA901D-57BD-49D6-8879-E9426DF5EF44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Jump 02" ID="{F7ADAC0F-3FFA-4BED-B3F2-D8A71B97CC1B}" ShortID="1057345930">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Jump 02" ID="{F9029452-3902-4917-B17F-FE73E0B69094}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Jump\TD_Remi_SFX_Jump 02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100093965"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Jump 02" ID="{F9029452-3902-4917-B17F-FE73E0B69094}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Jump 03" ID="{DE30AB78-345B-4C34-A0DF-49711BA8D49D}" ShortID="182087013">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Jump 03" ID="{D8AD16F5-ED3B-42E9-B74C-7C0CBB4C9A48}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Jump\TD_Remi_SFX_Jump 03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="623931655"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Jump 03" ID="{D8AD16F5-ED3B-42E9-B74C-7C0CBB4C9A48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Jump 04" ID="{AC6697D7-5B46-4E68-ABF3-56B262DF75A1}" ShortID="109859162">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Jump 04" ID="{456254C9-9129-4BE6-9603-4B801C7F906B}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Jump\TD_Remi_SFX_Jump 04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="120878930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Jump 04" ID="{456254C9-9129-4BE6-9603-4B801C7F906B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_Jump 05" ID="{4B2D8863-7BF7-4B27-8187-AFCC3EA06546}" ShortID="295057548">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Jump 05" ID="{8DBE69D6-9B67-4CCB-B4CB-A41FAFCB09F5}">
+											<Language>SFX</Language>
+											<AudioFile>Play_Jump\TD_Remi_SFX_Jump 05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="893313626"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Jump 05" ID="{8DBE69D6-9B67-4CCB-B4CB-A41FAFCB09F5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+										<CustomState Name="" ID="{8703C688-0381-4DE9-B9E6-83461FCC5735}" ShortID="774781697">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Volume" Type="Real64" Value="3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+										<CustomState Name="" ID="{6EF6F6ED-1BB6-4908-A0FA-FD1AF803A335}" ShortID="244700402"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{DD64D9A9-9FA8-40A9-A5A9-208BCCCD955E}" ShortID="380724652">
+					<ChildrenList>
+						<Sound Name="TD_Remi_SFX_Menu_Back" ID="{0DE553C6-96B8-4CA0-9518-B2D882EBFABB}" ShortID="33072419">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Menu" ID="{D372145D-6946-410D-9610-52F2D3178D32}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Menu_Back" ID="{1EB21CD4-D0E7-4B0A-9950-073ED9AACF05}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\TD_Remi_SFX_Menu_Back.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="448583749"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Menu_Back" ID="{1EB21CD4-D0E7-4B0A-9950-073ED9AACF05}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Menu_Move Between Options" ID="{7CD94A00-1E12-4A17-88AA-D25F153F29E5}" ShortID="335075958">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Menu" ID="{D372145D-6946-410D-9610-52F2D3178D32}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Menu_Move Between Options" ID="{49EA18C3-FEE4-4C58-91D4-E6AAECF7B10D}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\TD_Remi_SFX_Menu_Move Between Options.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="404646118"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Menu_Move Between Options" ID="{49EA18C3-FEE4-4C58-91D4-E6AAECF7B10D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Menu_Select" ID="{910A107C-DB46-4CEC-9683-0382A7ED8DE6}" ShortID="500858653">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Menu" ID="{D372145D-6946-410D-9610-52F2D3178D32}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Menu_Select" ID="{63D43599-C82D-44FF-858A-79440C6D9874}">
+									<Language>SFX</Language>
+									<AudioFile>Menu\TD_Remi_SFX_Menu_Select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="483700745"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Menu_Select" ID="{63D43599-C82D-44FF-858A-79440C6D9874}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Items" ID="{0721F316-8D4F-4469-8BE5-94832778AAE3}" ShortID="797165586">
+					<ChildrenList>
+						<Sound Name="TD_Remi_SFX_Icecream Collection" ID="{0926E3F7-65B7-4BED-9115-8B059D7D4DAC}" ShortID="1012214113">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Icecream Collection" ID="{3A3522A9-8181-44F2-B889-983091B8DD3F}">
+									<Language>SFX</Language>
+									<AudioFile>Items\TD_Remi_SFX_Icecream Collection.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="551992485"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Icecream Collection" ID="{3A3522A9-8181-44F2-B889-983091B8DD3F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Icecream Liking" ID="{11DD1862-D6CF-4BE4-B4C5-C8EB6AEBAD6F}" ShortID="936059208">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Icecream Liking" ID="{3996A165-329D-4B41-9700-11AA2DAAF584}">
+									<Language>SFX</Language>
+									<AudioFile>Items\TD_Remi_SFX_Icecream Liking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="15572430"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Icecream Liking" ID="{3996A165-329D-4B41-9700-11AA2DAAF584}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Icecream Proximity" ID="{67096FFB-36FC-4B2A-BEB3-6D3523455343}" ShortID="777211005">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{07BC8A31-D703-461A-B6F7-CE32761AFA5B}" ShortID="948653747">
+											<PropertyList>
+												<Property Name="ConeAttenuation" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeInnerAngle" Type="int32" Value="35"/>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>29</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="50"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{5A0EF636-E3BD-47F6-8CA0-41D29A860ED1}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{2295039D-7490-475C-9463-DA3A2FDE54A4}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Exp1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>50</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Icecream Proximity" ID="{F296E470-0E86-46A3-8A62-CBEA3CD8B5A7}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="310.252"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.72865152303636"/>
+										<Property Name="LoopEnd" Type="Real64" Value="38.4217263044685"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Items\TD_Remi_SFX_Icecream Proximity.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="971347691"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Icecream Proximity" ID="{F296E470-0E86-46A3-8A62-CBEA3CD8B5A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Potion Collection" ID="{1EBBE34D-B233-4C53-992C-9EEBD2FDA9B9}" ShortID="297588909">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Potion Collection" ID="{549FC483-CB49-477C-B7B6-52A8D5D1E932}">
+									<Language>SFX</Language>
+									<AudioFile>Items\TD_Remi_SFX_Potion Collection.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="909687458"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Potion Collection" ID="{549FC483-CB49-477C-B7B6-52A8D5D1E932}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="TD_Remi_SFX_Potion Proximity" ID="{12F80AB6-D88C-445B-9305-EAAF67BB83C3}" ShortID="879949591">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{69E0ADC3-F323-4623-B007-C78EE534555B}" ShortID="98657615">
+											<PropertyList>
+												<Property Name="ConeInnerAngle" Type="int32" Value="25"/>
+												<Property Name="ConeLowPassFilterValue" Type="int32">
+													<ValueList>
+														<Value>13</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ConeOuterAngle" Type="int32" Value="180"/>
+												<Property Name="ConeUse" Type="bool">
+													<ValueList>
+														<Value>True</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RadiusMax" Type="Real64" Value="80"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{DCE8212F-E1DF-4E63-AF6B-BF6C6FC00E5F}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																	<SegmentShape>Log1</SegmentShape>
+																</Point>
+																<Point>
+																	<XPos>80</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="LowPassFilter" ID="{B52AC7A0-92ED-42D2-94BE-CB3B6D108AA7}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="65537"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>80</XPos>
+																	<YPos>100</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Potion Proximity" ID="{F46E032D-D805-45C3-980D-775287B7C20B}">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="605.263"/>
+										<Property Name="LoopBegin" Type="Real64" Value="2.32270311313592"/>
+										<Property Name="LoopEnd" Type="Real64" Value="21.5679574791192"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Items\TD_Remi_SFX_Potion Proximity.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="26874879"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Potion Proximity" ID="{F46E032D-D805-45C3-980D-775287B7C20B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="Box" ID="{8C264054-F2F8-4985-B12F-E934C64AA48A}" ShortID="265871270">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Play_Box_Close" ID="{A6F98BD0-7A7D-4FE4-A749-7AA8E1285487}" ShortID="24577956">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Box Close 01" ID="{9136EFA0-EFE1-4B4F-905B-B948EBE4DDBF}" ShortID="761156233">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Close 01" ID="{4D47527D-0DE7-4FB6-9F71-B2F4DDC945CC}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Close\TD_Remi_SFX_Box Close 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="673431331"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Close 01" ID="{4D47527D-0DE7-4FB6-9F71-B2F4DDC945CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Box Close 02" ID="{778474F6-2CE4-46B3-BB50-F92A8517A520}" ShortID="383862462">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Close 02" ID="{6A37C060-07BF-4151-B0B8-81CAB903F16A}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Close\TD_Remi_SFX_Box Close 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="360019082"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Close 02" ID="{6A37C060-07BF-4151-B0B8-81CAB903F16A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Box Close 03" ID="{A202334D-3A30-4CC4-A77D-FDFB3E6F32E1}" ShortID="969271865">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Close 03" ID="{C53057AC-C5FA-4488-987A-01433D509608}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Close\TD_Remi_SFX_Box Close 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="718780819"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Close 03" ID="{C53057AC-C5FA-4488-987A-01433D509608}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+												<CustomState Name="" ID="{582A87CF-031E-41C6-878D-AB86AC97B8B9}" ShortID="374788934">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="54"/>
+														<Property Name="Volume" Type="Real64" Value="3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+												<CustomState Name="" ID="{E1E42877-236C-4CC4-A39B-09B9C05A1374}" ShortID="160848762"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Play_Box_Open" ID="{C577DF03-50BF-43AF-B240-FBB103F0DEFD}" ShortID="736947082">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Box Open 01" ID="{E0B7FF12-D16F-46D3-8245-43C96961C4CC}" ShortID="702200680">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Open 01" ID="{6336661F-89C6-4963-91FA-7C2ED37E3120}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Open\TD_Remi_SFX_Box Open 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1057666371"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Open 01" ID="{6336661F-89C6-4963-91FA-7C2ED37E3120}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Box Open 02" ID="{F1AF411E-DCA3-4B6C-ADDA-E8682AE3FEFB}" ShortID="484353169">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Open 02" ID="{352AD742-5E8F-47F3-94F8-512D69951D88}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Open\TD_Remi_SFX_Box Open 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387908947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Open 02" ID="{352AD742-5E8F-47F3-94F8-512D69951D88}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Box Open 03" ID="{AABF0E8B-12D3-4C66-95A7-940552FA2D44}" ShortID="170932865">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Box Open 03" ID="{43BBB148-091E-4476-B7F7-F3B2B8DE32AC}">
+													<Language>SFX</Language>
+													<AudioFile>Items\Play_Box\Play_Box_Open\TD_Remi_SFX_Box Open 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="509756773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Box Open 03" ID="{43BBB148-091E-4476-B7F7-F3B2B8DE32AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+												<CustomState Name="" ID="{7D9A55CB-5549-4BE0-BF73-3BE3B10C6150}" ShortID="597519411">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="52"/>
+														<Property Name="Volume" Type="Real64" Value="3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+												<CustomState Name="" ID="{762BC01B-6CF1-4994-A15B-B6A9E24B13BD}" ShortID="618626958"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{89F7D8EF-D666-4B8B-8136-0D29F792932B}" ShortID="1026796495">
+					<ChildrenList>
+						<Sound Name="TD_Remi_SFX_Clock Ticking" ID="{CF7C068F-87A3-4F68-839C-4A36DE77F03C}" ShortID="569382394">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TD_Remi_SFX_Clock Ticking" ID="{DAFD977A-2752-4605-9348-494AF2ED9F3C}">
+									<Language>SFX</Language>
+									<AudioFile>Environment\TD_Remi_SFX_Clock Ticking.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="926796960"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLife" ID="{CBA1AEE7-AAA0-4244-8DD4-91BE4E5B67FD}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{E78B1108-FABC-4173-9091-95C7E7074BAF}"/>
+										<CustomState Name="" ID="{563D871E-B410-40B2-9843-909F8A864B4B}" ShortID="135234916">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Alive" ID="{2B381F9F-8F1C-44AA-89E4-2B82B743A64D}"/>
+										<CustomState Name="" ID="{E890362B-DE41-4F20-B95A-CBB842D41016}" ShortID="292152499"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{A2B73FA4-9745-4C2A-AC5E-5C85A425787E}" ShortID="959388960">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="ClockTicking" ID="{DB97F6E4-F7E6-484B-9A78-1F8570EA35C4}" WorkUnitID="{8EFA1D68-DE61-4EF6-95CE-E67878AE7423}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{0D19FDAE-2382-4681-B1B9-5ACB420AAC64}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-0.20577</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50.27586</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{11F61254-61E6-45BC-865F-8E56B7746D94}" ShortID="935838120">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Lowpass"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="ClockTicking" ID="{DB97F6E4-F7E6-484B-9A78-1F8570EA35C4}" WorkUnitID="{8EFA1D68-DE61-4EF6-95CE-E67878AE7423}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8EE6C370-15D7-4A27-AD2C-7B2C2059E97A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Exp3</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50.58259</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-100</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="TD_Remi_SFX_Clock Ticking" ID="{DAFD977A-2752-4605-9348-494AF2ED9F3C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<ActorMixer Name="Door" ID="{D2ADA408-E751-429A-8C18-36574D9C7948}" ShortID="817559089">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Play_Door_Open" ID="{272307B7-EE52-416F-99C1-B0357150D9D0}" ShortID="812617214">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Door Open 01" ID="{6AE75601-9BCD-4D0B-973B-B0D0E02DFCB4}" ShortID="357935171">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Door Open 01" ID="{CD64E11C-9174-473C-A657-9610D31EF2EA}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Play_Door\Play_Door_Open\TD_Remi_SFX_Door Open 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="80055107"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Door Open 01" ID="{CD64E11C-9174-473C-A657-9610D31EF2EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Door Open 02" ID="{FA7B89F8-5EF5-42C1-A283-4261FB4F3ACA}" ShortID="230457402">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Door Open 02" ID="{56612DCB-1981-414F-9955-6E005CFA52C6}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Play_Door\Play_Door_Open\TD_Remi_SFX_Door Open 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599895247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Door Open 02" ID="{56612DCB-1981-414F-9955-6E005CFA52C6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+												<CustomState Name="" ID="{0014B7DC-105E-423E-9858-B562259E337B}" ShortID="570931728">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="48"/>
+														<Property Name="Volume" Type="Real64" Value="3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+												<CustomState Name="" ID="{61BF0955-DBF7-466C-B1E4-5273D62C148E}" ShortID="234893406"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</RandomSequenceContainer>
+								<Sound Name="TD_Remi_SFX_Door Close" ID="{5BB0F97F-6D5F-4B2D-A656-E2E0CC5ECDE9}" ShortID="661162757">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-13</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_Door Close" ID="{DF65A74F-8734-4ADE-9DBC-878E5C743D92}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Play_Door\TD_Remi_SFX_Door Close.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="577566054"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+												<CustomState Name="" ID="{ACF0E131-E285-4AD2-8CEE-1B2972BE811A}" ShortID="919778477">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="50"/>
+														<Property Name="Volume" Type="Real64" Value="3"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+												<CustomState Name="" ID="{1A2BED0F-4037-4F71-B9B0-91C64820F706}" ShortID="136711068"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_Door Close" ID="{DF65A74F-8734-4ADE-9DBC-878E5C743D92}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="WorldTrans" ID="{C422842E-C097-463D-B190-50472A33097F}" ShortID="188566377">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="TD_Remi_SFX_World Transition 01" ID="{7F1A7DE9-EC1E-4677-A12B-7556122E8783}" ShortID="296758749">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_World Transition 01" ID="{57723DBD-124D-4EC8-A53D-D9DFB6909B49}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Play_WorldTrans\TD_Remi_SFX_World Transition 01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="59248436"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_World Transition 01" ID="{57723DBD-124D-4EC8-A53D-D9DFB6909B49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_World Transition 02" ID="{D2E5B2EC-B384-455C-B16E-CFE7848A6230}" ShortID="1053471088">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_World Transition 02" ID="{505EA42C-5B42-4628-9814-56A5D45443F1}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Play_WorldTrans\TD_Remi_SFX_World Transition 02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487387217"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_World Transition 02" ID="{505EA42C-5B42-4628-9814-56A5D45443F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="TD_Remi_SFX_World Transition 03" ID="{89575CF9-996C-459D-9AC3-3736941FC5BA}" ShortID="891671367">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="TD_Remi_SFX_World Transition 03" ID="{8E19CD4C-5CE4-4FAE-AEF9-AC2A2846E910}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Play_WorldTrans\TD_Remi_SFX_World Transition 03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="790137619"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="TD_Remi_SFX_World Transition 03" ID="{8E19CD4C-5CE4-4FAE-AEF9-AC2A2846E910}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{D32623F2-7928-4664-8E78-9239D6E07A92}" ShortID="779742295">
+					<ChildrenList>
+						<ActorMixer Name="Unicorn" ID="{FD19D1C7-ED95-4C25-BE7B-52DE331C6447}" ShortID="50057547">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{C85C8F10-320B-499F-927C-64D19BAC5D22}" ShortID="45912368">
+											<PropertyList>
+												<Property Name="RadiusMax" Type="Real64" Value="25"/>
+											</PropertyList>
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{D01EBA8A-8CC3-42C7-92D5-5E78668594FF}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>25</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Play_Unicorn" ID="{E6E9C74B-F6AE-4AC2-A5C3-AF02D4FB7B24}" ShortID="271689522">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="UserAuxSendVolume0" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{155112A1-91A4-4DF1-BB19-64245E30B889}" ShortID="708500483">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="75"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{7BE126B8-3340-4F3E-A9A7-1B2723A86A88}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>75</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+										<Reference Name="UserAuxSend0">
+											<ObjectRef Name="Dark_World_Rev" ID="{4806EA77-FEA2-4CC1-81F1-45A563DD6AE6}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Unicorn 01" ID="{5452EFAB-5218-4759-A88F-0F75A97979ED}" ShortID="1049000974">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Unicorn 01" ID="{FF5E48E9-9A1F-4028-9C4E-CA472D74B76A}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Play_Unicorn\TD_Remi_SFX_Unicorn 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="230348370"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Unicorn 01" ID="{FF5E48E9-9A1F-4028-9C4E-CA472D74B76A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Unicorn 02" ID="{5E840791-D2B8-4504-AEA0-D6BF5011A2D1}" ShortID="32372324">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Unicorn 02" ID="{C0912F2E-F7CF-4FB6-B14F-F9B870159010}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Play_Unicorn\TD_Remi_SFX_Unicorn 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="415273362"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Unicorn 02" ID="{C0912F2E-F7CF-4FB6-B14F-F9B870159010}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="Veggie" ID="{E20DEE17-5D38-4E95-8099-9DABBF27B7BA}" ShortID="921615102">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX" ID="{2922268A-FCB7-4972-9208-6CE7C883D6B8}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Play_Veggie_Attack" ID="{BC49C09E-E2CF-40BC-8152-C0C43892F0B3}" ShortID="699515112">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{CFE7DF0D-E9CC-4BCF-8159-2D142BD5BB71}" ShortID="716198471">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="15"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{B3FC1AC8-164A-4F0B-B79E-70EC2A117755}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>15</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Veggie Attack 01" ID="{9FC5BCA5-24A0-4A03-B351-8657A098A07C}" ShortID="546876010">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie Attack 01" ID="{D246491A-DC0D-4651-B239-5A1E54F6F5D7}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="773647029"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie Attack 01" ID="{D246491A-DC0D-4651-B239-5A1E54F6F5D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Veggie Attack 02" ID="{F45C104B-DB71-4638-B185-B77E35A824E9}" ShortID="844784171">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie Attack 02" ID="{BE1D5C25-5E77-4912-83EB-DF146294AED0}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="512912810"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie Attack 02" ID="{BE1D5C25-5E77-4912-83EB-DF146294AED0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Veggie Attack 03" ID="{894BBFF8-FAA8-463B-8D5B-EC98D0C764BA}" ShortID="650769659">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie Attack 03" ID="{8050E592-9F2A-4810-AF9D-F5C6FA1153DF}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="97944277"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie Attack 03" ID="{8050E592-9F2A-4810-AF9D-F5C6FA1153DF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Play_Veggie_Prox" ID="{D0228B7F-00EF-4C63-BFAE-895F8D903F4A}" ShortID="51426093">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{76F4C3E2-7F30-45B4-B8AD-CA826335230F}" ShortID="195848375">
+													<PropertyList>
+														<Property Name="ConeUse" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+														<Property Name="RadiusMax" Type="Real64" Value="20"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{3D2051AA-531A-450C-9D69-EF78A1ACB687}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="TD_Remi_SFX_Veggie 01" ID="{925D0E99-6016-4186-A241-FCEA3C096716}" ShortID="987883085">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie 01" ID="{16C6A4A0-E749-47F5-93B7-A95A85096236}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1035656499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie 01" ID="{16C6A4A0-E749-47F5-93B7-A95A85096236}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Veggie 02" ID="{7D7DF537-127B-4D30-8032-DF604B7C07CE}" ShortID="512928221">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie 02" ID="{DA53D209-9429-4469-8760-0DDB77C6AF17}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1010691053"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie 02" ID="{DA53D209-9429-4469-8760-0DDB77C6AF17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Veggie 03" ID="{1F5C46E8-F526-4D4C-BF20-A3E170EFDED9}" ShortID="361927773">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie 03" ID="{6B7196B5-698A-4EDF-BCB2-3D0E076D61AB}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="555290517"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie 03" ID="{6B7196B5-698A-4EDF-BCB2-3D0E076D61AB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="TD_Remi_SFX_Veggie 04" ID="{9AEFA002-302B-410A-A62C-0E1841594123}" ShortID="920620804">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E5D0980E-526A-4F04-AAC8-20D277A9203B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="TD_Remi_SFX_Veggie 04" ID="{EC6422DA-48F5-4AC2-919A-95A723156AB2}">
+													<Language>SFX</Language>
+													<AudioFile>Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="10288461"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="TD_Remi_SFX_Veggie 04" ID="{EC6422DA-48F5-4AC2-919A-95A723156AB2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

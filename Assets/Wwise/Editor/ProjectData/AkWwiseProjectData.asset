@@ -1,0 +1,1586 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f81b50c69cb8468fbd2f37fec1d3aed, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b27008062fa1ba49880c581bec93f470
+    ParentPath: Virtual Acoustics/Default Work Unit
+    guid: b27008062fa1ba49880c581bec93f470
+    GuidInternal: 
+    m_lastTime: -8584685214238604905
+    List: []
+  - PhysicalPath: Virtual Acoustics/Factory Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Factory Acoustic Textures
+      ObjectType: 12
+      guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    ParentPath: Virtual Acoustics/Factory Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8584685214238469694
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+        guid: f2532d2fccda8e408b8898b1b52a26d6
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Anechoic
+        ObjectType: 15
+        guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Brick
+        ObjectType: 15
+        guid: a9a586b004f2534ca838bdb18b18f6d6
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Carpet
+        ObjectType: 15
+        guid: 8975223456dc604296c4b9f4b669092b
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Concrete
+        ObjectType: 15
+        guid: 001cf85c9628e04aaf7c3080bdaba682
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+        guid: 19c9d2305f92434189063dbb3c4ae5e2
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Curtains
+        ObjectType: 15
+        guid: 339ee6f8975c6849b508a1535f2d66e8
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Drywall
+        ObjectType: 15
+        guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Fabric
+        ObjectType: 15
+        guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Mountain
+        ObjectType: 15
+        guid: 313793c51a00b44a98dd9b033a8c8eab
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Tile
+        ObjectType: 15
+        guid: c4da82a82a13b747ba9db9907ba29cc0
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood
+        ObjectType: 15
+        guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Bright
+        ObjectType: 15
+        guid: e5d1857ba2c1634e9a13cec54b641adc
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Virtual Acoustics
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Acoustic Textures
+        ObjectType: 12
+        guid: 6b663d46a83ca54f8b4a5fef12b883f6
+      - ElementName: Textures
+        ObjectType: 4
+        guid: a3121e7828e3df4a8bba5fb89c74031d
+      - ElementName: Wood_Deep
+        ObjectType: 15
+        guid: 8e474652dac50c4ea0dec98d1479529a
+      Path: Virtual Acoustics/Factory Acoustic Textures/Textures/Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
+    guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+    GuidInternal: 
+    m_lastTime: -8584685214238427851
+    List:
+    - name: Dark_World_Rev
+      guid: 77ea0648a2fec14c81f145a563dd6ae6
+      id: 1662838314
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Dark_World_Rev
+        ObjectType: 1
+        guid: 77ea0648a2fec14c81f145a563dd6ae6
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Dark_World_Rev
+    - name: Enemies
+      guid: d87d39276b78bb46bfbfd79baedadbdc
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      - ElementName: Enemies
+        ObjectType: 2
+        guid: d87d39276b78bb46bfbfd79baedadbdc
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Enemies
+    - name: Environment
+      guid: c7cfdb7c40489c498399f55f7d20a935
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      - ElementName: Environment
+        ObjectType: 2
+        guid: c7cfdb7c40489c498399f55f7d20a935
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Environment
+    - name: Items
+      guid: fd856f8566eed54a87fc0ee7da445668
+      id: 2151963051
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      - ElementName: Items
+        ObjectType: 2
+        guid: fd856f8566eed54a87fc0ee7da445668
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Items
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
+    - name: Menu
+      guid: 5d1472d346690d41961052f2d3178d32
+      id: 2607556080
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Menu
+        ObjectType: 2
+        guid: 5d1472d346690d41961052f2d3178d32
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Menu
+    - name: Music
+      guid: 84c7032f65b2cf478959e476e48a0fa8
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: 84c7032f65b2cf478959e476e48a0fa8
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Music
+    - name: Player
+      guid: f2aa2a0c4aa72944913a4da833970be1
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      - ElementName: Player
+        ObjectType: 2
+        guid: f2aa2a0c4aa72944913a4da833970be1
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX/Player
+    - name: SFX
+      guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 5b2d8d9c20c5364db3f155b0c306e4c6
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 3e2f23a33f661e4e9a8d547f9e9393c3
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/SFX
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c5a53f0c0e3dff4492792fb892a22f70
+    ParentPath: SoundBanks/Default Work Unit
+    guid: c5a53f0c0e3dff4492792fb892a22f70
+    GuidInternal: 
+    m_lastTime: -8584685214239137613
+    List:
+    - name: Main
+      guid: 92dab5335ec5454b9cd8f9258132cdb1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c5a53f0c0e3dff4492792fb892a22f70
+      - ElementName: Main
+        ObjectType: 7
+        guid: 92dab5335ec5454b9cd8f9258132cdb1
+      Path: SoundBanks/Default Work Unit/Main
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 0b75250bcfd9584f9a06fdf6f100d35e
+    ParentPath: Events/Default Work Unit
+    guid: 0b75250bcfd9584f9a06fdf6f100d35e
+    GuidInternal: 
+    m_lastTime: -8584685214239191881
+    List:
+    - name: Back
+      guid: d6f4cc929e12fb4db8de99e53b099055
+      id: 1559875400
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Menu
+        ObjectType: 4
+        guid: fbac47720a0f45468dcbaabc7dae5c8c
+      - ElementName: Back
+        ObjectType: 3
+        guid: d6f4cc929e12fb4db8de99e53b099055
+      Path: Events/Default Work Unit/Menu/Back
+      maxAttenuation: 0
+      maxDuration: 0.4099375
+      minDuration: 0.4099375
+    - name: CloseBox
+      guid: 7b7265265400a84d9119e9cb6de7ac5a
+      id: 24651142
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: CloseBox
+        ObjectType: 3
+        guid: 7b7265265400a84d9119e9cb6de7ac5a
+      Path: Events/Default Work Unit/Items/CloseBox
+      maxAttenuation: 0
+      maxDuration: 0.7565625
+      minDuration: 0.25354168
+    - name: CloseDoor
+      guid: 0b1400111b37e04dac2eb1c0a4c7ff3c
+      id: 1405443347
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      - ElementName: CloseDoor
+        ObjectType: 3
+        guid: 0b1400111b37e04dac2eb1c0a4c7ff3c
+      Path: Events/Default Work Unit/Environment/CloseDoor
+      maxAttenuation: 0
+      maxDuration: 0.49235415
+      minDuration: 0.49235415
+    - name: Dark_Darker
+      guid: faee0e418d5f2a44967bef1e90e2c083
+      id: 2450551025
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      - ElementName: Dark_Darker
+        ObjectType: 3
+        guid: faee0e418d5f2a44967bef1e90e2c083
+      Path: Events/Default Work Unit/Environment/Dark_Darker
+      maxAttenuation: 0
+      maxDuration: 6.833979
+      minDuration: 6.833979
+    - name: Dark_Light
+      guid: 38333a89a653284f8e1605ef8fa692fd
+      id: 1358872724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      - ElementName: Dark_Light
+        ObjectType: 3
+        guid: 38333a89a653284f8e1605ef8fa692fd
+      Path: Events/Default Work Unit/Environment/Dark_Light
+      maxAttenuation: 0
+      maxDuration: 8.645604
+      minDuration: 8.645604
+    - name: Enemies
+      guid: 582005d3aaa6d04b9a66d05e43642951
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 582005d3aaa6d04b9a66d05e43642951
+      Path: Events/Default Work Unit/Enemies
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Environment
+      guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      id: 1229948536
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      Path: Events/Default Work Unit/Environment
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GameOver
+      guid: 5ea2821b5673f740a99e37ec55c3ca44
+      id: 4158285989
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: GameOver
+        ObjectType: 3
+        guid: 5ea2821b5673f740a99e37ec55c3ca44
+      Path: Events/Default Work Unit/GameOver
+      maxAttenuation: 0
+      maxDuration: 14.5
+      minDuration: 14.5
+    - name: IcecreamCollect
+      guid: 96cddac5eae4604696cd76b140a12cb3
+      id: 4190943754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: IcecreamCollect
+        ObjectType: 3
+        guid: 96cddac5eae4604696cd76b140a12cb3
+      Path: Events/Default Work Unit/Items/IcecreamCollect
+      maxAttenuation: 0
+      maxDuration: 4.8904166
+      minDuration: 4.8904166
+    - name: IcecreamProx
+      guid: d036a6cb79c9414e9648532ec6355176
+      id: 3183478735
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: IcecreamProx
+        ObjectType: 3
+        guid: d036a6cb79c9414e9648532ec6355176
+      Path: Events/Default Work Unit/Items/IcecreamProx
+      maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: Items
+      guid: 42a03a7355800c41a1339914a0e1ec98
+      id: 2151963051
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      Path: Events/Default Work Unit/Items
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Jump
+      guid: 7e66d089ca1f9640963689a0a45ba11d
+      id: 3833651337
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Player
+        ObjectType: 4
+        guid: b04038831d2a2548aa3398ce95ef4988
+      - ElementName: Jump
+        ObjectType: 3
+        guid: 7e66d089ca1f9640963689a0a45ba11d
+      Path: Events/Default Work Unit/Player/Jump
+      maxAttenuation: 0
+      maxDuration: 0.50395834
+      minDuration: 0.35908332
+    - name: Light_Dark
+      guid: e149ff03a4309e478220e3d39cda57c3
+      id: 3330710522
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      - ElementName: Light_Dark
+        ObjectType: 3
+        guid: e149ff03a4309e478220e3d39cda57c3
+      Path: Events/Default Work Unit/Environment/Light_Dark
+      maxAttenuation: 0
+      maxDuration: 7.9515624
+      minDuration: 7.9515624
+    - name: Liking
+      guid: 042ad31b82bf344f925a4e8d994cca36
+      id: 1730364821
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: Liking
+        ObjectType: 3
+        guid: 042ad31b82bf344f925a4e8d994cca36
+      Path: Events/Default Work Unit/Items/Liking
+      maxAttenuation: 0
+      maxDuration: 2.0099583
+      minDuration: 2.0099583
+    - name: Menu
+      guid: fbac47720a0f45468dcbaabc7dae5c8c
+      id: 2607556080
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Menu
+        ObjectType: 4
+        guid: fbac47720a0f45468dcbaabc7dae5c8c
+      Path: Events/Default Work Unit/Menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: OpenBox
+      guid: abe316068ac501449262ec4bda29029d
+      id: 1847332492
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: OpenBox
+        ObjectType: 3
+        guid: abe316068ac501449262ec4bda29029d
+      Path: Events/Default Work Unit/Items/OpenBox
+      maxAttenuation: 0
+      maxDuration: 0.468375
+      minDuration: 0.327125
+    - name: OpenDoor
+      guid: 42cc7839c8ad9649bd80a4ee65696b2a
+      id: 2122995345
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Environment
+        ObjectType: 4
+        guid: bf06e7fbde5f8e4282a968ba8dc4e0ff
+      - ElementName: OpenDoor
+        ObjectType: 3
+        guid: 42cc7839c8ad9649bd80a4ee65696b2a
+      Path: Events/Default Work Unit/Environment/OpenDoor
+      maxAttenuation: 0
+      maxDuration: 1.10875
+      minDuration: 0.32779166
+    - name: Option
+      guid: 76653e854c8ffd40b8c734c8949ae900
+      id: 731737678
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Menu
+        ObjectType: 4
+        guid: fbac47720a0f45468dcbaabc7dae5c8c
+      - ElementName: Option
+        ObjectType: 3
+        guid: 76653e854c8ffd40b8c734c8949ae900
+      Path: Events/Default Work Unit/Menu/Option
+      maxAttenuation: 0
+      maxDuration: 0.26239583
+      minDuration: 0.26239583
+    - name: Player
+      guid: b04038831d2a2548aa3398ce95ef4988
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Player
+        ObjectType: 4
+        guid: b04038831d2a2548aa3398ce95ef4988
+      Path: Events/Default Work Unit/Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PotionCollect
+      guid: ca80e961127dd74996b9a02f8d9c347e
+      id: 989237998
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: PotionCollect
+        ObjectType: 3
+        guid: ca80e961127dd74996b9a02f8d9c347e
+      Path: Events/Default Work Unit/Items/PotionCollect
+      maxAttenuation: 0
+      maxDuration: 4
+      minDuration: 4
+    - name: PotionProx
+      guid: b54969adf094ce46b730c5e00f46c4e3
+      id: 1273320011
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Items
+        ObjectType: 4
+        guid: 42a03a7355800c41a1339914a0e1ec98
+      - ElementName: PotionProx
+        ObjectType: 3
+        guid: b54969adf094ce46b730c5e00f46c4e3
+      Path: Events/Default Work Unit/Items/PotionProx
+      maxAttenuation: 80
+      maxDuration: 0
+      minDuration: 0
+    - name: Select
+      guid: 6b1e202ef9adb14ea3ff6467a3a38669
+      id: 1432588725
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Menu
+        ObjectType: 4
+        guid: fbac47720a0f45468dcbaabc7dae5c8c
+      - ElementName: Select
+        ObjectType: 3
+        guid: 6b1e202ef9adb14ea3ff6467a3a38669
+      Path: Events/Default Work Unit/Menu/Select
+      maxAttenuation: 0
+      maxDuration: 0.3768125
+      minDuration: 0.3768125
+    - name: Steps
+      guid: 5a6c8a80be83fe49860de4cde29c4573
+      id: 1718617278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Player
+        ObjectType: 4
+        guid: b04038831d2a2548aa3398ce95ef4988
+      - ElementName: Steps
+        ObjectType: 3
+        guid: 5a6c8a80be83fe49860de4cde29c4573
+      Path: Events/Default Work Unit/Player/Steps
+      maxAttenuation: 0
+      maxDuration: 0.25841665
+      minDuration: 0.18316667
+    - name: UnicornAttack
+      guid: e66828e05fcb924e98aa7f84045187e4
+      id: 3839500963
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 582005d3aaa6d04b9a66d05e43642951
+      - ElementName: UnicornAttack
+        ObjectType: 3
+        guid: e66828e05fcb924e98aa7f84045187e4
+      Path: Events/Default Work Unit/Enemies/UnicornAttack
+      maxAttenuation: 25
+      maxDuration: 4.756271
+      minDuration: 4.756271
+    - name: VeggieAttack
+      guid: b3d9c5559e823045b402e754ed5d1703
+      id: 2190275314
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 582005d3aaa6d04b9a66d05e43642951
+      - ElementName: VeggieAttack
+        ObjectType: 3
+        guid: b3d9c5559e823045b402e754ed5d1703
+      Path: Events/Default Work Unit/Enemies/VeggieAttack
+      maxAttenuation: 15
+      maxDuration: 1.0485834
+      minDuration: 0.67683333
+    - name: VeggieProx
+      guid: c5fa3635ec813e4a8ff4b5922c0fc8bd
+      id: 1142507785
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 0b75250bcfd9584f9a06fdf6f100d35e
+      - ElementName: Enemies
+        ObjectType: 4
+        guid: 582005d3aaa6d04b9a66d05e43642951
+      - ElementName: VeggieProx
+        ObjectType: 3
+        guid: c5fa3635ec813e4a8ff4b5922c0fc8bd
+      Path: Events/Default Work Unit/Enemies/VeggieProx
+      maxAttenuation: 20
+      maxDuration: 1.1237917
+      minDuration: 0.41647917
+  - PhysicalPath: Events/Music.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Music
+      ObjectType: 12
+      guid: ff6d40c532938d479cc4ddf1a15cf7ec
+    ParentPath: Events/Music
+    guid: ff6d40c532938d479cc4ddf1a15cf7ec
+    GuidInternal: 
+    m_lastTime: -8584685214239234722
+    List:
+    - name: Combat_Start
+      guid: df2927503fd34d40b419788eb24d39e1
+      id: 1137411260
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: ff6d40c532938d479cc4ddf1a15cf7ec
+      - ElementName: Combat_Start
+        ObjectType: 3
+        guid: df2927503fd34d40b419788eb24d39e1
+      Path: Events/Music/Combat_Start
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Music
+      guid: 0cd88b92cc7da44ea3eb457f55525965
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: ff6d40c532938d479cc4ddf1a15cf7ec
+      - ElementName: Music
+        ObjectType: 3
+        guid: 0cd88b92cc7da44ea3eb457f55525965
+      Path: Events/Music/Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Victory
+      guid: f8686bff3476d74d93f36109e20a9326
+      id: 2716678721
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Music
+        ObjectType: 12
+        guid: ff6d40c532938d479cc4ddf1a15cf7ec
+      - ElementName: Victory
+        ObjectType: 3
+        guid: f8686bff3476d74d93f36109e20a9326
+      Path: Events/Music/Victory
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 681dfa8e61def64e95cee67878ae7423
+    ParentPath: Game Parameters/Default Work Unit
+    guid: 681dfa8e61def64e95cee67878ae7423
+    GuidInternal: 
+    m_lastTime: -8584685214239117636
+    List:
+    - name: ClockTicking
+      guid: e4f697dbe6f74b489a781f8570ea35c4
+      id: 1051411130
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 681dfa8e61def64e95cee67878ae7423
+      - ElementName: ClockTicking
+        ObjectType: 13
+        guid: e4f697dbe6f74b489a781f8570ea35c4
+      Path: Game Parameters/Default Work Unit/ClockTicking
+  - PhysicalPath: Game Parameters/Factory Soundseed Air Game Syncs.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Factory Soundseed Air Game Syncs
+      ObjectType: 12
+      guid: 5577163b42fb8b4598bf96f557afb3b9
+    ParentPath: Game Parameters/Factory Soundseed Air Game Syncs
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    GuidInternal: 
+    m_lastTime: -8584685214239097712
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+        guid: 59062ef746431c4ea1b1dab46a05101e
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+        guid: 37fe2d2f9e4f944d83d853cca39781ad
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+        guid: dc79aea23acaba4696529986c322a87b
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+        guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+        guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+        guid: ab9048a3d5b92645a64d5290c43ef2dc
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+        guid: efeb291393a12e47a38c64668b494879
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+        guid: db8c3fe9d1063747acaf7cd44bbed783
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+        guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Factory Soundseed Air Game Syncs
+        ObjectType: 12
+        guid: 5577163b42fb8b4598bf96f557afb3b9
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+        guid: 197ba8edaa73a0409f192073606db710
+      Path: Game Parameters/Factory Soundseed Air Game Syncs/SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: cd01c9bde1e395419b7bd7d58b5e73a6
+    ParentPath: States/Default Work Unit
+    guid: cd01c9bde1e395419b7bd7d58b5e73a6
+    GuidInternal: 
+    m_lastTime: -8584685214239165400
+    List:
+    - name: Music_State
+      guid: 66aeeba0df3c1d439d000f705bef796c
+      id: 3826569560
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd01c9bde1e395419b7bd7d58b5e73a6
+      - ElementName: Music_State
+        ObjectType: 9
+        guid: 66aeeba0df3c1d439d000f705bef796c
+      Path: States/Default Work Unit/Music_State
+      values:
+      - name: Combat_Dark
+        guid: dba6cf28a521ef4da4b80677d9fcdad6
+        id: 457771164
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 66aeeba0df3c1d439d000f705bef796c
+        - ElementName: Combat_Dark
+          ObjectType: 8
+          guid: dba6cf28a521ef4da4b80677d9fcdad6
+      - name: Gameplay_Dark
+        guid: df905eb8e898e546b952e4d216ad039e
+        id: 1723393528
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 66aeeba0df3c1d439d000f705bef796c
+        - ElementName: Gameplay_Dark
+          ObjectType: 8
+          guid: df905eb8e898e546b952e4d216ad039e
+      - name: Gameplay_Light
+        guid: a450dcefc140a9439d57dc30a14496ed
+        id: 4255815960
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 66aeeba0df3c1d439d000f705bef796c
+        - ElementName: Gameplay_Light
+          ObjectType: 8
+          guid: a450dcefc140a9439d57dc30a14496ed
+      - name: None
+        guid: 4f82277d19f62a48a67094e692574f46
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 66aeeba0df3c1d439d000f705bef796c
+        - ElementName: None
+          ObjectType: 8
+          guid: 4f82277d19f62a48a67094e692574f46
+      - name: Victory
+        guid: ea416ced5d2f2b48bb7a1d4da1770d8f
+        id: 2716678721
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: Music_State
+          ObjectType: 9
+          guid: 66aeeba0df3c1d439d000f705bef796c
+        - ElementName: Victory
+          ObjectType: 8
+          guid: ea416ced5d2f2b48bb7a1d4da1770d8f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: PlayerLife
+      guid: e7aea1cba0aa44428dd491be4e5b67fd
+      id: 444815956
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd01c9bde1e395419b7bd7d58b5e73a6
+      - ElementName: PlayerLife
+        ObjectType: 9
+        guid: e7aea1cba0aa44428dd491be4e5b67fd
+      Path: States/Default Work Unit/PlayerLife
+      values:
+      - name: Alive
+        guid: 9f1f382b1c8faa4489e42b82b743a64d
+        id: 655265632
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: e7aea1cba0aa44428dd491be4e5b67fd
+        - ElementName: Alive
+          ObjectType: 8
+          guid: 9f1f382b1c8faa4489e42b82b743a64d
+      - name: Dead
+        guid: 08118be7bcfa7341909195c7e7074baf
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: e7aea1cba0aa44428dd491be4e5b67fd
+        - ElementName: Dead
+          ObjectType: 8
+          guid: 08118be7bcfa7341909195c7e7074baf
+      - name: None
+        guid: 2284b4afa4744e41a1b55ac747e7d223
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: PlayerLife
+          ObjectType: 9
+          guid: e7aea1cba0aa44428dd491be4e5b67fd
+        - ElementName: None
+          ObjectType: 8
+          guid: 2284b4afa4744e41a1b55ac747e7d223
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: World
+      guid: 6175ac9a92bbc94680b1ae16d1c033d1
+      id: 2609808943
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: cd01c9bde1e395419b7bd7d58b5e73a6
+      - ElementName: World
+        ObjectType: 9
+        guid: 6175ac9a92bbc94680b1ae16d1c033d1
+      Path: States/Default Work Unit/World
+      values:
+      - name: Dark
+        guid: 81e9f2153298e646a95d863a865c4748
+        id: 1925914845
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: World
+          ObjectType: 9
+          guid: 6175ac9a92bbc94680b1ae16d1c033d1
+        - ElementName: Dark
+          ObjectType: 8
+          guid: 81e9f2153298e646a95d863a865c4748
+      - name: Light
+        guid: 372388e9e08ab44b8b2cbcfba89e4b50
+        id: 1935470627
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: World
+          ObjectType: 9
+          guid: 6175ac9a92bbc94680b1ae16d1c033d1
+        - ElementName: Light
+          ObjectType: 8
+          guid: 372388e9e08ab44b8b2cbcfba89e4b50
+      - name: None
+        guid: a402b66a1d110945a6f06792cdb6c52b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: cd01c9bde1e395419b7bd7d58b5e73a6
+        - ElementName: World
+          ObjectType: 9
+          guid: 6175ac9a92bbc94680b1ae16d1c033d1
+        - ElementName: None
+          ObjectType: 8
+          guid: a402b66a1d110945a6f06792cdb6c52b
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: f4d2ef04375e754a90caf9fe03b16c21
+    ParentPath: Switches/Default Work Unit
+    guid: f4d2ef04375e754a90caf9fe03b16c21
+    GuidInternal: 
+    m_lastTime: -8584685214239212585
+    List:
+    - name: Gameplay_Switch
+      guid: c99abc6a13911349859f595ea9774c15
+      id: 2702523344
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f4d2ef04375e754a90caf9fe03b16c21
+      - ElementName: Gameplay_Switch
+        ObjectType: 11
+        guid: c99abc6a13911349859f595ea9774c15
+      Path: Switches/Default Work Unit/Gameplay_Switch
+      values:
+      - name: Combat
+        guid: a5ab7dc82bf5364398b26edf00e503df
+        id: 2764240573
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f4d2ef04375e754a90caf9fe03b16c21
+        - ElementName: Gameplay_Switch
+          ObjectType: 11
+          guid: c99abc6a13911349859f595ea9774c15
+        - ElementName: Combat
+          ObjectType: 10
+          guid: a5ab7dc82bf5364398b26edf00e503df
+      - name: Explore
+        guid: e12939c9372d234fb5448762abb4abaf
+        id: 579523862
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f4d2ef04375e754a90caf9fe03b16c21
+        - ElementName: Gameplay_Switch
+          ObjectType: 11
+          guid: c99abc6a13911349859f595ea9774c15
+        - ElementName: Explore
+          ObjectType: 10
+          guid: e12939c9372d234fb5448762abb4abaf
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 8a7c9480ed7e5447a540e5643d1bdf3a
+    ParentPath: Triggers/Default Work Unit
+    guid: 8a7c9480ed7e5447a540e5643d1bdf3a
+    GuidInternal: 
+    m_lastTime: -8584685214238587828
+    List: []
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 0
+  currentDataSource: 1
+  CurrentPluginConfig: 

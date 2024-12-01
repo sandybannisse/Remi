@@ -1,0 +1,109 @@
+Event	ID	Name			Wwise Object Path	Notes
+	24651142	CloseBox			\Default Work Unit\Items\CloseBox	
+	731737678	Option			\Default Work Unit\Menu\Option	
+	989237998	PotionCollect			\Default Work Unit\Items\PotionCollect	
+	1137411260	Combat_Start			\Music\Combat_Start	
+	1142507785	VeggieProx			\Default Work Unit\Enemies\VeggieProx	
+	1273320011	PotionProx			\Default Work Unit\Items\PotionProx	
+	1358872724	Dark_Light			\Default Work Unit\Environment\Dark_Light	
+	1405443347	CloseDoor			\Default Work Unit\Environment\CloseDoor	
+	1432588725	Select			\Default Work Unit\Menu\Select	
+	1559875400	Back			\Default Work Unit\Menu\Back	
+	1718617278	Steps			\Default Work Unit\Player\Steps	
+	1730364821	Liking			\Default Work Unit\Items\Liking	
+	1847332492	OpenBox			\Default Work Unit\Items\OpenBox	
+	2122995345	OpenDoor			\Default Work Unit\Environment\OpenDoor	
+	2190275314	VeggieAttack			\Default Work Unit\Enemies\VeggieAttack	
+	2450551025	Dark_Darker			\Default Work Unit\Environment\Dark_Darker	
+	2716678721	Victory			\Music\Victory	
+	3183478735	IcecreamProx			\Default Work Unit\Items\IcecreamProx	
+	3330710522	Light_Dark			\Default Work Unit\Environment\Light_Dark	
+	3833651337	Jump			\Default Work Unit\Player\Jump	
+	3839500963	UnicornAttack			\Default Work Unit\Enemies\UnicornAttack	
+	3991942870	Music			\Music\Music	
+	4158285989	GameOver			\Default Work Unit\GameOver	
+	4190943754	IcecreamCollect			\Default Work Unit\Items\IcecreamCollect	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	444815956	PlayerLife			\Default Work Unit\PlayerLife	
+	2609808943	World			\Default Work Unit\World	
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	PlayerLife			
+	748895195	None	PlayerLife			
+	2044049779	Dead	PlayerLife			
+	748895195	None	World			
+	1925914845	Dark	World			
+	1935470627	Light	World			
+	457771164	Combat_Dark	Music_State			
+	748895195	None	Music_State			
+	1723393528	Gameplay_Dark	Music_State			
+	2716678721	Victory	Music_State			
+	4255815960	Gameplay_Light	Music_State			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10288461	TD_Remi_SFX_Veggie 04	Y:\Remi copy 2\Audio\.cache\C0\{C0D3BB99-46E2-0C51-CFA1-8DADF60CD7DB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 04		15605
+	15572430	TD_Remi_SFX_Icecream Liking	Y:\Remi copy 2\Audio\.cache\C7\{C76F2B29-6CBC-03A2-3398-7A4E1ECF0310}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\TD_Remi_SFX_Icecream Liking		29844
+	26874879	TD_Remi_SFX_Potion Proximity	Y:\Remi copy 2\Audio\.cache\3C\{3CCAFEE2-CACB-67B8-D557-BEAB97867EA4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\TD_Remi_SFX_Potion Proximity		264527
+	29387630	Combat_DARK_E_125bpm_4-4_L8_P0	Y:\Remi copy 2\Audio\.cache\1C\{1C8C983A-FF3C-D96A-DBB0-932037B7FF91}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_E_125bpm_4-4_L8_P0\Combat_DARK_E_125bpm_4-4_L8_P0		366625
+	59248436	TD_Remi_SFX_World Transition 01	Y:\Remi copy 2\Audio\.cache\B8\{B8A373ED-4323-EA66-6137-4E2D19FA6CC5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WorldTrans\TD_Remi_SFX_World Transition 01		128569
+	67361907	GamePlay_A_125bpm_4-4_L16m-P0	Y:\Remi copy 2\Audio\.cache\58\{58F5ADC8-3F04-DB51-CC9F-248181D2B05A}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_LIGHT\GamePlay_A_125bpm_4-4_L16m-P0\GamePlay_A_125bpm_4-4_L16m-P0		537772
+	80055107	TD_Remi_SFX_Door Open 01	Y:\Remi copy 2\Audio\.cache\E3\{E3ECA87D-3BC0-C295-D7A5-EDBF32C9E87F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door\Play_Door_Open\TD_Remi_SFX_Door Open 01		12824
+	97944277	TD_Remi_SFX_Veggie Attack 03	Y:\Remi copy 2\Audio\.cache\42\{42FF7AFA-5062-2115-B57C-D986F74E1DEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 03		11806
+	100093965	TD_Remi_SFX_Jump 02	Y:\Remi copy 2\Audio\.cache\ED\{ED2E47DC-78BA-F7F1-0C5F-3FFA6272B404}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Jump\TD_Remi_SFX_Jump 02		5812
+	120878930	TD_Remi_SFX_Jump 04	Y:\Remi copy 2\Audio\.cache\2A\{2AE74815-E785-660A-CCC6-5FCC08D01092}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Jump\TD_Remi_SFX_Jump 04		7750
+	146043913	TD_Remi_SFX_Step 09	Y:\Remi copy 2\Audio\.cache\75\{7571EBE8-EB12-82EB-02BE-908D58A67C72}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 09		3740
+	177668675	Combat_DARK_A_125bpm_4-4_L16_P2	Y:\Remi copy 2\Audio\.cache\9D\{9D1EAD6E-E945-9B40-DB48-7D3C1BEF203F}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_A_125bpm_4-4_L16_P2\Combat_DARK_A_125bpm_4-4_L16_P2		623063
+	230348370	TD_Remi_SFX_Unicorn 01	Y:\Remi copy 2\Audio\.cache\FE\{FE37D89E-C4B6-5619-321C-FA2F4DDDCE1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Unicorn\Play_Unicorn\TD_Remi_SFX_Unicorn 01		67907
+	232261071	Combat_DARK_C_125bpm_4-4_L8_P2	Y:\Remi copy 2\Audio\.cache\8F\{8F9C9BFE-4031-5FED-24B6-E1032F71E660}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_C_125bpm_4-4_L8_P2\Combat_DARK_C_125bpm_4-4_L8_P2		382885
+	256105854	TD_Remi_SFX_Step 06	Y:\Remi copy 2\Audio\.cache\6F\{6FA71752-C92A-4F3F-B421-EE8B94A106A4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 06		3820
+	278557369	TD_Remi_SFX_Step 11	Y:\Remi copy 2\Audio\.cache\AF\{AF61E2EB-4DDB-7198-6209-5DA57E6574C7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 11		3299
+	302039624	TD_Remi_SFX_Step 01	Y:\Remi copy 2\Audio\.cache\49\{49800078-E05E-5A61-236C-552F4C87984F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 01		3439
+	319565888	GamePlay_C_125bpm_4-4_L16m-P0	Y:\Remi copy 2\Audio\.cache\9A\{9A1354D3-E86F-705E-550B-9F0B8B9D7F82}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_LIGHT\GamePlay_C_125bpm_4-4_L16m-P0\GamePlay_C_125bpm_4-4_L16m-P0		588614
+	349754668	TD_Remi_SFX_Step 05	Y:\Remi copy 2\Audio\.cache\6D\{6DF988B7-925B-F05D-0766-E4A0D6077B41}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 05		3895
+	360019082	TD_Remi_SFX_Box Close 02	Y:\Remi copy 2\Audio\.cache\36\{36F78217-5EB6-E072-EC84-1D89DD0BA100}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Close\TD_Remi_SFX_Box Close 02		12919
+	365173643	Combat_DARK_B_125bpm_4-4_L8_P0	Y:\Remi copy 2\Audio\.cache\43\{4338F46D-1D2C-49C4-42DB-1F349E89EC9B}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_B_125bpm_4-4_L8_P0\Combat_DARK_B_125bpm_4-4_L8_P0		346433
+	387908947	TD_Remi_SFX_Box Open 02	Y:\Remi copy 2\Audio\.cache\DA\{DAB64FDC-E198-A957-35E4-DB9C2AF2D4B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Open\TD_Remi_SFX_Box Open 02		8654
+	393087952	TD_Remi_SFX_Game Over	Y:\Remi copy 2\Audio\.cache\0D\{0D0FC4BF-A4B6-DEAB-003C-35E54521F2B2}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAME_OVER\TD_Remi_SFX_Game Over\TD_Remi_SFX_Game Over		170814
+	404646118	TD_Remi_SFX_Menu_Move Between Options	Y:\Remi copy 2\Audio\.cache\0D\{0D6810B3-19FD-B743-786C-D24A251B06B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\TD_Remi_SFX_Menu_Move Between Options		5153
+	415273362	TD_Remi_SFX_Unicorn 02	Y:\Remi copy 2\Audio\.cache\39\{39A85A4F-747B-64D3-EC87-4FBEFA3CBD50}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Unicorn\Play_Unicorn\TD_Remi_SFX_Unicorn 02		66794
+	430274624	Gameplay_DARK_Trans_Out_125bpm_4-4_L2_P0	Y:\Remi copy 2\Audio\.cache\DC\{DC5D19F8-71DA-FDE6-4612-FD8A22CFC31E}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_DARK\Gameplay_DARK_Trans_Out_125bpm_4-4_L2_P0\Gameplay_DARK_Trans_Out_125bpm_4-4_L2_P0		114556
+	441941363	Main-Title-B_125bpm_4-4_L8M-P0	Y:\Remi copy 2\Audio\.cache\F9\{F90CB601-7DF8-3EE7-2F4A-474BB1D28668}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\MAIN_THEME\Main-Title-B_125bpm_4-4_L8M-P0\Main-Title-B_125bpm_4-4_L8M-P0		260058
+	448583749	TD_Remi_SFX_Menu_Back	Y:\Remi copy 2\Audio\.cache\05\{05409A5F-0777-B38C-F438-871FEE9216B7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\TD_Remi_SFX_Menu_Back		8587
+	472443950	TD_Remi_SFX_Step 10	Y:\Remi copy 2\Audio\.cache\60\{60CBE441-1FFA-B608-3E8C-43736937A9F6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 10		4414
+	483700745	TD_Remi_SFX_Menu_Select	Y:\Remi copy 2\Audio\.cache\FB\{FB8B2F5F-CAF7-A821-ACA9-3AD8CD130C68}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\TD_Remi_SFX_Menu_Select		7452
+	487387217	TD_Remi_SFX_World Transition 02	Y:\Remi copy 2\Audio\.cache\21\{21D8D8F4-557C-D7E7-D60C-47C9C4181142}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WorldTrans\TD_Remi_SFX_World Transition 02		117371
+	509753540	TD_Remi_SFX_Step 07	Y:\Remi copy 2\Audio\.cache\54\{54A949FA-C495-7AE8-834C-318520A75D2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 07		4377
+	509756773	TD_Remi_SFX_Box Open 03	Y:\Remi copy 2\Audio\.cache\AA\{AAD8B9DC-3A68-B1E9-EA60-371E07CECD3B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Open\TD_Remi_SFX_Box Open 03		8751
+	511151790	GamePlay_B_125bpm_4-4_L8m-P1	Y:\Remi copy 2\Audio\.cache\5F\{5FDC73B6-97FE-3617-D06F-B01F3A0B7A41}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_LIGHT\GamePlay_B_125bpm_4-4_L8m-P1\GamePlay_B_125bpm_4-4_L8m-P1		292873
+	512912810	TD_Remi_SFX_Veggie Attack 02	Y:\Remi copy 2\Audio\.cache\82\{827B7591-29C9-6077-15A2-D53B1CF1BFC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 02		10266
+	521101577	TD_Remi_SFX_Step 03	Y:\Remi copy 2\Audio\.cache\13\{13FB71C3-59E9-8D84-378F-724BB79B002E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 03		3393
+	551992485	TD_Remi_SFX_Icecream Collection	Y:\Remi copy 2\Audio\.cache\71\{7105FD2C-BEA6-AD43-7303-F246789E62CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\TD_Remi_SFX_Icecream Collection		51194
+	555290517	TD_Remi_SFX_Veggie 03	Y:\Remi copy 2\Audio\.cache\48\{4878DB7A-054D-6F37-AC6E-59986B8ECA6B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 03		8269
+	566793208	Combat_DARK_Trans_Out_125bpm_4-4_L2_P0	Y:\Remi copy 2\Audio\.cache\3A\{3A0E96D8-A49D-8A2C-3628-FAE490CE13AC}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_Trans_Out_125bpm_4-4_L2_P0\Combat_DARK_Trans_Out_125bpm_4-4_L2_P0		135387
+	577566054	TD_Remi_SFX_Door Close	Y:\Remi copy 2\Audio\.cache\5D\{5DC69F0C-075B-DA28-8A17-CD9157A1331E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door\TD_Remi_SFX_Door Close		6387
+	599895247	TD_Remi_SFX_Door Open 02	Y:\Remi copy 2\Audio\.cache\50\{506E2514-682B-7137-9AC8-B92D9772E04C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Door\Play_Door_Open\TD_Remi_SFX_Door Open 02		4995
+	604985017	Trans_to_DarkGameplay_125bpm_4-4_L6-P0	Y:\Remi copy 2\Audio\.cache\42\{4251C1DE-9BE1-CFB5-F4AB-498DB66363EE}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_LIGHT\Trans_to_DarkGameplay_125bpm_4-4_L6-P0\Trans_to_DarkGameplay_125bpm_4-4_L6-P0		301395
+	623931655	TD_Remi_SFX_Jump 03	Y:\Remi copy 2\Audio\.cache\16\{16831787-F5BF-0536-1556-67B3CDF1BF44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Jump\TD_Remi_SFX_Jump 03		6227
+	648668540	TD_Remi_SFX_Step 02	Y:\Remi copy 2\Audio\.cache\FC\{FCC85AA3-844D-34CE-FF0B-C32333008973}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 02		4142
+	652740920	GamePlay_DARK_A_125bpm_4-4_L8_P0	Y:\Remi copy 2\Audio\.cache\1A\{1A7ABC0A-7F6B-EC5B-9CC4-1F4487830675}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_DARK\GamePlay_DARK_A_125bpm_4-4_L8_P0\GamePlay_DARK_A_125bpm_4-4_L8_P0		309549
+	673431331	TD_Remi_SFX_Box Close 01	Y:\Remi copy 2\Audio\.cache\69\{694B98FA-4418-7838-0B18-97B41AA3D74F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Close\TD_Remi_SFX_Box Close 01		4596
+	718780819	TD_Remi_SFX_Box Close 03	Y:\Remi copy 2\Audio\.cache\4D\{4D19BC8D-44DC-626F-7994-90C916F5BA78}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Close\TD_Remi_SFX_Box Close 03		6783
+	757883889	Main-Title-A_125bpm_4-4_L8M-P0	Y:\Remi copy 2\Audio\.cache\00\{006999CF-244B-F7D7-90C8-A0575D8AA0D2}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\MAIN_THEME\Main-Title-A_125bpm_4-4_L8M-P0\Main-Title-A_125bpm_4-4_L8M-P0		244118
+	773647029	TD_Remi_SFX_Veggie Attack 01	Y:\Remi copy 2\Audio\.cache\A3\{A3856AF2-824F-325D-EA6C-32B383184224}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Attack\TD_Remi_SFX_Veggie Attack 01		15350
+	790137619	TD_Remi_SFX_World Transition 03	Y:\Remi copy 2\Audio\.cache\36\{362D6EE1-58F5-B97D-5868-2D657910A8CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\WorldTrans\TD_Remi_SFX_World Transition 03		146124
+	816457745	TD_Remi_SFX_Jump 01	Y:\Remi copy 2\Audio\.cache\DF\{DFA043BF-373B-F6E3-7DA0-8C7B48A40DA7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Jump\TD_Remi_SFX_Jump 01		6901
+	826039796	Main-Title-C_125bpm_4-4_L8M-P1	Y:\Remi copy 2\Audio\.cache\54\{54A5440F-5512-5737-D66C-1ED263C8D97D}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\MAIN_THEME\Main-Title-C_125bpm_4-4_L8M-P1\Main-Title-C_125bpm_4-4_L8M-P1		303184
+	857348131	GamePlay_DARK_C_125bpm_4-4_L8_P1	Y:\Remi copy 2\Audio\.cache\52\{520A8A97-5DE9-5CF5-0CF4-8C3E3595C4DC}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_DARK\GamePlay_DARK_C_125bpm_4-4_L8_P1\GamePlay_DARK_C_125bpm_4-4_L8_P1		296418
+	893313626	TD_Remi_SFX_Jump 05	Y:\Remi copy 2\Audio\.cache\47\{4712BA87-283B-D2B7-C0AB-E04EFCC18851}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Jump\TD_Remi_SFX_Jump 05		6913
+	909687458	TD_Remi_SFX_Potion Collection	Y:\Remi copy 2\Audio\.cache\7F\{7F047BC2-9597-B29A-F442-71F56FDAB756}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\TD_Remi_SFX_Potion Collection		55208
+	950015097	Combat_DARK_D_125bpm_4-4_L8_P0	Y:\Remi copy 2\Audio\.cache\03\{03AE6A6F-EF51-0038-DCAA-A2B1E2F1F047}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\COMBAT_DARK\Combat_DARK_D_125bpm_4-4_L8_P0\Combat_DARK_D_125bpm_4-4_L8_P0		362428
+	962251597	TD_Remi_SFX_Step 08	Y:\Remi copy 2\Audio\.cache\AD\{AD453F51-17F2-A6E8-0C5B-81A7C258BCDD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 08		4305
+	971347691	TD_Remi_SFX_Icecream Proximity	Y:\Remi copy 2\Audio\.cache\64\{649BD816-36FD-EB4A-30F5-89F5519F670E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\TD_Remi_SFX_Icecream Proximity		533153
+	1010691053	TD_Remi_SFX_Veggie 02	Y:\Remi copy 2\Audio\.cache\71\{7105A4C6-9265-68A7-D880-CFE7DBF665FA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 02		11996
+	1035656499	TD_Remi_SFX_Veggie 01	Y:\Remi copy 2\Audio\.cache\0F\{0F7269B6-AE9E-1379-03D4-D1F3141A92C5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Veggie\Play_Veggie_Prox\TD_Remi_SFX_Veggie 01		23972
+	1047769736	TD_Remi_SFX_Step 04	Y:\Remi copy 2\Audio\.cache\14\{1415E46B-4110-D3D5-F770-6768AF3F1AD9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Play_Steps\TD_Remi_SFX_Step 04		3294
+	1056325109	GamePlay_DARK_B_125bpm_4-4_L8_P0	Y:\Remi copy 2\Audio\.cache\EF\{EF895128-1873-CF45-C7F5-B4F15837537B}.wem		\Interactive Music Hierarchy\Music\04 Music\Remi Music\GAMEPLAY_DARK\GamePlay_DARK_B_125bpm_4-4_L8_P0\GamePlay_DARK_B_125bpm_4-4_L8_P0		331605
+	1057666371	TD_Remi_SFX_Box Open 01	Y:\Remi copy 2\Audio\.cache\12\{121600D8-9F09-B90A-612A-3AA7757B69C2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\Box\Play_Box_Open\TD_Remi_SFX_Box Open 01		6740
+

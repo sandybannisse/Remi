@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4004e4a0064a444e4b061d9908122d62, type: 3}
+  m_Name: 15F2E981-9832-46E6-A95D-863A865C4748
+  m_EditorClassIdentifier: 
+  objectName: Dark
+  id: 1925914845
+  guid: 15F2E981-9832-46E6-A95D-863A865C4748
+  WwiseStateGroupReference: {fileID: 11400000, guid: 6d956063c81a841b5ab65ac5b72294a7, type: 2}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BDC901CD-E3E1-4195-9B7B-D7D58B5E73A6}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{BDC901CD-E3E1-4195-9B7B-D7D58B5E73A6}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{CBA1AEE7-AAA0-4244-8DD4-91BE4E5B67FD}">
+					<ChildrenList>
+						<State Name="None" ID="{AFB48422-74A4-414E-A1B5-5AC747E7D223}"/>
+						<State Name="Alive" ID="{2B381F9F-8F1C-44AA-89E4-2B82B743A64D}"/>
+						<State Name="Dead" ID="{E78B1108-FABC-4173-9091-95C7E7074BAF}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Alive" ID="{2B381F9F-8F1C-44AA-89E4-2B82B743A64D}"/>
+							<EndState Name="Dead" ID="{E78B1108-FABC-4173-9091-95C7E7074BAF}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dead" ID="{E78B1108-FABC-4173-9091-95C7E7074BAF}"/>
+							<EndState Name="Alive" ID="{2B381F9F-8F1C-44AA-89E4-2B82B743A64D}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="World" ID="{9AAC7561-BB92-46C9-80B1-AE16D1C033D1}">
+					<ChildrenList>
+						<State Name="None" ID="{6AB602A4-111D-4509-A6F0-6792CDB6C52B}"/>
+						<State Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+						<State Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+							<EndState Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dark" ID="{15F2E981-9832-46E6-A95D-863A865C4748}"/>
+							<EndState Name="Light" ID="{E9882337-8AE0-4BB4-8B2C-BCFBA89E4B50}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="Music_State" ID="{A0EBAE66-3CDF-431D-9D00-0F705BEF796C}">
+					<ChildrenList>
+						<State Name="None" ID="{7D27824F-F619-482A-A670-94E692574F46}"/>
+						<State Name="Gameplay_Light" ID="{EFDC50A4-40C1-43A9-9D57-DC30A14496ED}"/>
+						<State Name="Gameplay_Dark" ID="{B85E90DF-98E8-46E5-B952-E4D216AD039E}"/>
+						<State Name="Combat_Dark" ID="{28CFA6DB-21A5-4DEF-A4B8-0677D9FCDAD6}"/>
+						<State Name="Victory" ID="{ED6C41EA-2F5D-482B-BB7A-1D4DA1770D8F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0B25750B-D9CF-4F58-9A06-FDF6F100D35E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Enemies" ID="{D3052058-A6AA-4BD0-9A66-D05E43642951}" ShortID="907588638">
+					<ChildrenList>
+						<Event Name="UnicornAttack" ID="{E02868E6-CB5F-4E92-98AA-7F84045187E4}">
+							<ChildrenList>
+								<Action Name="" ID="{F566A580-9647-4285-A2A3-B76EC81D01D7}" ShortID="603476657">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Unicorn" ID="{E6E9C74B-F6AE-4AC2-A5C3-AF02D4FB7B24}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VeggieProx" ID="{3536FAC5-81EC-4A3E-8FF4-B5922C0FC8BD}">
+							<ChildrenList>
+								<Action Name="" ID="{E6D44708-4776-4B25-A393-04E0AA34F1ED}" ShortID="189837247">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Veggie_Prox" ID="{D0228B7F-00EF-4C63-BFAE-895F8D903F4A}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="VeggieAttack" ID="{55C5D9B3-829E-4530-B402-E754ED5D1703}">
+							<ChildrenList>
+								<Action Name="" ID="{C87D18E9-C1FB-4768-8E9A-7E73753AC5B8}" ShortID="722225754">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Veggie_Attack" ID="{BC49C09E-E2CF-40BC-8152-C0C43892F0B3}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{FBE706BF-5FDE-428E-82A9-68BA8DC4E0FF}" ShortID="905416032">
+					<ChildrenList>
+						<Event Name="OpenDoor" ID="{3978CC42-ADC8-4996-BD80-A4EE65696B2A}">
+							<ChildrenList>
+								<Action Name="" ID="{EC8500D8-70C4-464E-8664-8765EE475E44}" ShortID="1065450146">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Door_Open" ID="{272307B7-EE52-416F-99C1-B0357150D9D0}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CloseDoor" ID="{1100140B-371B-4DE0-AC2E-B1C0A4C7FF3C}">
+							<ChildrenList>
+								<Action Name="" ID="{DD88405B-8D69-4BBD-B69F-F16ACE971571}" ShortID="1052657280">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Door Close" ID="{5BB0F97F-6D5F-4B2D-A656-E2E0CC5ECDE9}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Light_Dark" ID="{03FF49E1-30A4-479E-8220-E3D39CDA57C3}">
+							<ChildrenList>
+								<Action Name="" ID="{3ED80AAD-A957-44C0-B0B5-4FBD5CECFB20}" ShortID="714823713">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_World Transition 01" ID="{7F1A7DE9-EC1E-4677-A12B-7556122E8783}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dark_Darker" ID="{410EEEFA-5F8D-442A-967B-EF1E90E2C083}">
+							<ChildrenList>
+								<Action Name="" ID="{1D79B791-884D-4639-B19A-3034C4C19288}" ShortID="648426680">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_World Transition 02" ID="{D2E5B2EC-B384-455C-B16E-CFE7848A6230}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dark_Light" ID="{893A3338-53A6-4F28-8E16-05EF8FA692FD}">
+							<ChildrenList>
+								<Action Name="" ID="{B2282EBB-C0E1-49BC-A0A6-24E972F126FA}" ShortID="13282669">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_World Transition 03" ID="{89575CF9-996C-459D-9AC3-3736941FC5BA}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Items" ID="{733AA042-8055-410C-A133-9914A0E1EC98}" ShortID="233022993">
+					<ChildrenList>
+						<Event Name="OpenBox" ID="{0616E3AB-C58A-4401-9262-EC4BDA29029D}">
+							<ChildrenList>
+								<Action Name="" ID="{79FBD0C4-C401-4AD0-9EE7-868CA647D986}" ShortID="16940638">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Box_Open" ID="{C577DF03-50BF-43AF-B240-FBB103F0DEFD}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CloseBox" ID="{2665727B-0054-4DA8-9119-E9CB6DE7AC5A}">
+							<ChildrenList>
+								<Action Name="" ID="{A59A359E-E6E5-4364-AB16-E753521ED30C}" ShortID="756574738">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Box_Close" ID="{A6F98BD0-7A7D-4FE4-A749-7AA8E1285487}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="IcecreamCollect" ID="{C5DACD96-E4EA-4660-96CD-76B140A12CB3}">
+							<ChildrenList>
+								<Action Name="" ID="{F0C2C4ED-C2D8-4765-A3BE-2BD575B57D5D}" ShortID="678419632">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Icecream Collection" ID="{0926E3F7-65B7-4BED-9115-8B059D7D4DAC}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PotionCollect" ID="{61E980CA-7D12-49D7-96B9-A02F8D9C347E}">
+							<ChildrenList>
+								<Action Name="" ID="{F6785A88-6AAE-4749-B417-5F9468629349}" ShortID="1050287706">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Potion Collection" ID="{1EBBE34D-B233-4C53-992C-9EEBD2FDA9B9}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Liking" ID="{1BD32A04-BF82-4F34-925A-4E8D994CCA36}">
+							<ChildrenList>
+								<Action Name="" ID="{74DBA5D3-667F-42C8-B49A-08AF3CBB3196}" ShortID="320832469">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Icecream Liking" ID="{11DD1862-D6CF-4BE4-B4C5-C8EB6AEBAD6F}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PotionProx" ID="{AD6949B5-94F0-46CE-B730-C5E00F46C4E3}">
+							<ChildrenList>
+								<Action Name="" ID="{CBA78101-95ED-4694-8A5D-CB995E4A0354}" ShortID="1000237509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Potion Proximity" ID="{12F80AB6-D88C-445B-9305-EAAF67BB83C3}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="IcecreamProx" ID="{CBA636D0-C979-4E41-9648-532EC6355176}">
+							<ChildrenList>
+								<Action Name="" ID="{BE1682F2-1BB0-4381-A89F-364FF9F22C84}" ShortID="759896829">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Icecream Proximity" ID="{67096FFB-36FC-4B2A-BEB3-6D3523455343}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{833840B0-2A1D-4825-AA33-98CE95EF4988}" ShortID="95827522">
+					<ChildrenList>
+						<Event Name="Jump" ID="{89D0667E-1FCA-4096-9636-89A0A45BA11D}">
+							<ChildrenList>
+								<Action Name="" ID="{B8F8A9A1-E75A-4FEA-BC2A-C97A1791CA9B}" ShortID="764985396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Jump" ID="{275E10B3-15FD-43DA-B778-48F771AE020C}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Steps" ID="{808A6C5A-83BE-49FE-860D-E4CDE29C4573}">
+							<ChildrenList>
+								<Action Name="" ID="{B2EA6612-5666-4257-9AD0-8030C0E23F8D}" ShortID="670230775">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Play_Steps" ID="{F679FB7A-2616-4CFE-BD8F-2B8FB481B31E}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{7247ACFB-0F0A-4645-8DCB-AABC7DAE5C8C}" ShortID="1013283545">
+					<ChildrenList>
+						<Event Name="Select" ID="{2E201E6B-ADF9-4EB1-A3FF-6467A3A38669}">
+							<ChildrenList>
+								<Action Name="" ID="{3AB865BF-FBE9-4723-BD41-955401EDA36B}" ShortID="1014957406">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Menu_Select" ID="{910A107C-DB46-4CEC-9683-0382A7ED8DE6}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Option" ID="{853E6576-8F4C-40FD-B8C7-34C8949AE900}">
+							<ChildrenList>
+								<Action Name="" ID="{BDC29E13-846E-40B5-A30A-2BBA8142F4C6}" ShortID="494094984">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Menu_Move Between Options" ID="{7CD94A00-1E12-4A17-88AA-D25F153F29E5}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Back" ID="{92CCF4D6-129E-4DFB-B8DE-99E53B099055}">
+							<ChildrenList>
+								<Action Name="" ID="{6F5E76D0-54D7-47FD-8AB6-44539ED35F77}" ShortID="944538150">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TD_Remi_SFX_Menu_Back" ID="{0DE553C6-96B8-4CA0-9518-B2D882EBFABB}" WorkUnitID="{E5F9B088-E43C-4563-8CF8-716DE262ACB9}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="GameOver" ID="{1B82A25E-7356-40F7-A99E-37EC55C3CA44}">
+					<ChildrenList>
+						<Action Name="" ID="{D7956118-6898-4582-9289-AE9777DFC738}" ShortID="298188970">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GAME_OVER" ID="{10E9160B-727A-4F77-BFCE-EF86F5BAF28A}" WorkUnitID="{C44E571C-3A77-4627-9395-86EEA7F53053}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

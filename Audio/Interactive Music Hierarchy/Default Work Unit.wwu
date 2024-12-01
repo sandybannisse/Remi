@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7488F22-436E-4A20-A55D-DA54DAF8C054}" SchemaVersion="123">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{C7488F22-436E-4A20-A55D-DA54DAF8C054}" PersistMode="Standalone"/>
+	</InteractiveMusic>
+</WwiseDocument>

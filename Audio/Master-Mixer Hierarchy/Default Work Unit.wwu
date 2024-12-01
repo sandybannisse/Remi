@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{9C8D2D5B-C520-4D36-B3F1-55B0C306E4C6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{B4EAA88D-EF72-4FC5-B5E1-4E7A046D6CEC}" WorkUnitID="{DD70C384-4671-41CE-BF47-FF1F612D72DD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AuxBus Name="Dark_World_Rev" ID="{4806EA77-FEA2-4CC1-81F1-45A563DD6AE6}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{8089B758-1E07-4B7F-A777-C8784E455EEE}" ShortID="139788858">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Medium_Dark" ID="{626B6E38-739B-4689-819F-F81AD3788BDE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
+						<Bus Name="Music" ID="{2F03C784-B265-47CF-8959-E476E48A0FA8}"/>
+						<Bus Name="SFX" ID="{A3232F3E-663F-4E1E-9A8D-547F9E9393C3}">
+							<ChildrenList>
+								<Bus Name="Enemies" ID="{27397DD8-786B-46BB-BFBF-D79BAEDADBDC}"/>
+								<Bus Name="Environment" ID="{7CDBCFC7-4840-499C-8399-F55F7D20A935}"/>
+								<Bus Name="Items" ID="{856F85FD-EE66-4AD5-87FC-0EE7DA445668}"/>
+								<Bus Name="Player" ID="{0C2AAAF2-A74A-4429-913A-4DA833970BE1}"/>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerLife" ID="{CBA1AEE7-AAA0-4244-8DD4-91BE4E5B67FD}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Dead" ID="{E78B1108-FABC-4173-9091-95C7E7074BAF}"/>
+										<CustomState Name="" ID="{D6309D2B-33E4-42C8-8845-7BAA20D150E8}" ShortID="617245050">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-9"/>
+												<Property Name="Lowpass" Type="int16" Value="56"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Alive" ID="{2B381F9F-8F1C-44AA-89E4-2B82B743A64D}"/>
+										<CustomState Name="" ID="{1D87B33C-4303-456C-B09E-DAC2256D6A3D}" ShortID="341161842"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{2F03C784-B265-47CF-8959-E476E48A0FA8}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Menu" ID="{D372145D-6946-410D-9610-52F2D3178D32}"/>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>
